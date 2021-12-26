@@ -3,6 +3,10 @@
 Live demo https://dataguard-challenge.herokuapp.com/
 https://mockapi.io/ is used as the mock server. 
 https://mui.com/ is used as the UI library. 
+
+**NOTE**
+
+create .env file in the root before run the project locally, Add the base url as `REACT_APP_SERVER_URL=https://61c5848ac003e70017b79764.mockapi.io/api/v1`
 ## Available Scripts 
 
 In the project directory, you can run:
