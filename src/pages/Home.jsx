@@ -73,11 +73,9 @@ function Home(props) {
         if (data.activate) {
             const newTabsData = addPlugin(data);
             await put(`/tabs/${newTabsData.id}`, newTabsData)
-            console.log({ newTabsData })
         } else {
             const newTabsData = removePlugin(data);
             await put(`/tabs/${newTabsData.id}`, newTabsData)
-            console.log({ newTabsData })
         }
     }
 
